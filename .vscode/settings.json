@@ -3,6 +3,7 @@
         "algorithm": "cpp",
         "vector": "cpp",
         "iostream": "cpp",
-        "stdexcept": "cpp"
+        "stdexcept": "cpp",
+        "map": "cpp"
     }
 }

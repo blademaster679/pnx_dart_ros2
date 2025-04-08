@@ -15,7 +15,7 @@
 #include <tf2_ros/transform_broadcaster.h>
 #include <tf2_ros/transform_listener.h>
 
-//STD
+// STD
 #include <memory>
 #include <string>
 #include <vector>
@@ -26,13 +26,54 @@
 
 namespace rm_auto_aim_dart
 {
+    class LightDetectorNode : public rclcpp::Node
+    {
+    public:
+        explicit LightDetectorNode(const rclcpp::NodeOptions &options);
 
-}
+    private:
+        void imageCallback(const sensor_msgs::msg::Image::ConstSharedPtr &img_msg);
 
+        std::unique_ptr<Detector> initDectector();
+        std::vector<Light> detectLights(const sensor_msgs::msg::Image::ConstSharedPtr &img_msg, cv::Mat &img);
 
+        void createDebugPublishers();
+        void destroyDebugPublishers();
 
+        // Light Detector
+        std::unique_ptr<Detector> detector_;
 
+        // Detected armors publisher
+        auto_aim_interfaces::msg::Light light_msg_;
+        rclcpp::Publisher<auto_aim_interfaces::msg::Light>::SharedPtr light_pub_;
 
+        // Visualization marker publisher
+        visualization_msgs::msg::Marker light_marker_;
+        visualization_msgs::msg::Marker text_marker_;
+        visualization_msgs::msg::MarkerArray marker_array_;
+        rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr marker_pub_;
 
+        // Camera info
+        rclcpp::Subscription<sensor_msgs::msg::CameraInfo>::SharedPtr camera_info_sub_;
+        cv::Point2f camera_center_;
+        std::shared_ptr<sensor_msgs::msg::CameraInfo> camera_info_;
+        std::unique_ptr<PnPSolver> pnp_solver_;
 
+        // Image subscription
+        rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr image_sub_;
+
+        // tf2
+        std::shared_ptr<tf2_ros::Buffer> tf2_buffer_;
+        std::shared_ptr<tf2_ros::TransformListener> tf2_listener_;
+        Eigen::Matrix3d imu_to_camera;
+
+        // Debug
+        bool debug_;
+        std::shared_ptr<rclcpp::ParameterEventHandler> debug_param_sub_;
+        std::shared_ptr<rclcpp::ParameterCallbackHandle> debug_cb_handle_;
+        rclcpp::Publisher<auto_aim_interfaces::msg::DebugLights>::SharedPtr lights_data_pub_;
+        image_transport::Publisher binary_img_pub_;
+        image_transport::Publisher result_img_pub_;
+    };
+} // namespace rm_auto_aim_dart
 #endif
