@@ -74,6 +74,8 @@ namespace rm_auto_aim_dart
         rclcpp::Publisher<auto_aim_interfaces::msg::DebugLights>::SharedPtr lights_data_pub_;
         image_transport::Publisher binary_img_pub_;
         image_transport::Publisher result_img_pub_;
+
+        double light_radius_;
     };
 } // namespace rm_auto_aim_dart
 #endif
