@@ -36,9 +36,12 @@ namespace rm_auto_aim_dart
 
         std::unique_ptr<Detector> initDectector();
         std::vector<Light> detectLights(const sensor_msgs::msg::Image::ConstSharedPtr &img_msg, cv::Mat &img);
+        void drawResults(const sensor_msgs::msg::Image::ConstSharedPtr &img_msg, cv::Mat &img, const std::vector<Light> &lights);
 
         void createDebugPublishers();
         void destroyDebugPublishers();
+
+        void publishMarkers();
 
         // Light Detector
         std::unique_ptr<Detector> detector_;

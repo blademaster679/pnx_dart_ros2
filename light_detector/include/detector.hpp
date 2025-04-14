@@ -9,6 +9,9 @@
 #include <algorithm>
 #include <iostream>
 #include <cstdio>
+
+#include "auto_aim_interfaces/msg/debug_lights.hpp"
+
 namespace rm_auto_aim_dart
 {
     const int RED = 0;
@@ -20,6 +23,17 @@ namespace rm_auto_aim_dart
         int binary_threshold = 100; // 灰度255代表白色，0代表黑色
         Detector() = default;
         cv::Mat binary_image(const cv::Mat &color_image); // convert color image to binary image
+        void drawResults(const cv::Mat &image, const cv::Point2f &center, double radius, double fitScore, bool found);
+        Debug msg
+        cv::Mat binary_image, gray_img;
+        auto_aim_interfaces::msg::DebugLights debug_lights;
+
+        // 计算拟合圆的函数
+        cv::Point2f best_center;
+        double best_radius = 0.0f;
+        double best_fit_score = -1.0f; // 最佳拟合度得分（0-100%）
+        bool has_best_fit = false;
+
         struct Light : public cv::RotatedRect
         {
             Light() = default;

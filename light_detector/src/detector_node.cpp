@@ -187,6 +187,101 @@ namespace rm_auto_aim_dart
                     RCLCPP_WARN(this->get_logger(), "PnP failed!");
                 }
             }
+            drawResults(img_msg, img, lights);
+            light_pub_->publish(light_msg_);
+            pulisherMarkers();
         }
     }
-}
+    std::unique_ptr<Detector> LightDetectorNode::initDectector()
+    {
+        auto detector = std::make_unique<Detector>();
+        detector->binary_threshold = this->declare_parameter<int>("binary_threshold", 100);
+        return detector;
+    }
+    std::vector<Light> LightDetectorNode::detectLights(const sensor_msgs::msg::Image::ConstSharedPtr &img_msg, cv::Mat &img)
+    {
+        // convert ROS image to cv::Mat
+        img = cv_bridge::toCvShare(img_msg, "bgr8")->image;
+        auto lights = detector_->find_lights(img, detector_->binary_image(img));
+        // 计算延迟
+        auto final_time = this->now();
+        auto latency = (final_time - img_msg->header.stamp).seconds() * 1000;
+        RCLCPP_DEBUG_STREAM(this->get_logger(), "Latency: " << latency << "ms");
+        if (debug_)
+        {
+            binary_img_pub_.publish(
+                cv_bridge::CvImage(img_msg->header, "mono8", detector_->binary_img).toImageMsg());
+            lights_data_pub_->publish(detector_->debug_lights);
+        }
+        return lights;
+    }
+
+    void LightDetectorNode::drawResults(const sensor_msgs::msg::Image::ConstSharedPtr &img_msg, cv::Mat &img, const std::vector<Light> &lights)
+    {
+        // 计算延迟
+        auto final_time = this->now();
+        auto latency = (final_time - img_msg->header.stamp).seconds() * 1000;
+        RCLCPP_DEBUG_STREAM(this->get_logger(), "Latency: " << latency << "ms");
+        if (!debug_)
+        {
+            return;
+        }
+        // 使用 detector_ 中存储的最佳拟合结果，而不是 lights[0]
+        if (detector_->has_best_fit)
+        {
+            detector_->drawResults(img, detector_->best_center, detector_->best_radius,
+                                   detector_->best_fit_score, true);
+        }
+        else if (!lights.empty())
+        {
+            // 备选方案：如果没有存储最佳拟合，但有灯光，则使用 lights[0]
+            detector_->drawResults(img, lights[0].center, lights[0].radius, 100, true);
+        }
+        else
+        {
+            // 没有找到灯光
+            detector_->drawResults(img, cv::Point2f(0, 0), 0, 0, false);
+        }
+        // Draw camera center
+        cv::circle(img, cam_center_, 5, cv::Scalar(255, 0, 0), 2);
+        // Draw latency
+        std::stringstream latency_ss;
+        latency_ss << "Latency: " << std::fixed << std::setprecision(2) << latency << "ms";
+        auto latency_s = latency_ss.str();
+        cv::putText(
+            img, latency_s, cv::Point(10, 30), cv::FONT_HERSHEY_SIMPLEX, 1.0, cv::Scalar(0, 255, 0), 2);
+        result_img_pub_.publish(cv_bridge::CvImage(img_msg->header, "rgb8", img).toImageMsg());
+    }
+
+    void ArmorDetectorNode::createDebugPublishers()
+    {
+        lights_data_pub_ =
+            this->create_publisher<auto_aim_interfaces::msg::DebugLights>("/detector/debug_lights", 10);
+
+        binary_img_pub_ = image_transport::create_publisher(this, "/detector/binary_img");
+        result_img_pub_ = image_transport::create_publisher(this, "/detector/result_img");
+    }
+
+    void ArmorDetectorNode::destroyDebugPublishers()
+    {
+        lights_data_pub_.reset();
+
+        binary_img_pub_.shutdown();
+        result_img_pub_.shutdown();
+    }
+
+    void ArmorDetectorNode::publishMarkers()
+    {
+        using Marker = visualization_msgs::msg::Marker;
+        armor_marker_.action = armors_msg_.armors.empty() ? Marker::DELETE : Marker::ADD;
+        marker_array_.markers.emplace_back(armor_marker_);
+        marker_pub_->publish(marker_array_);
+    }
+} // namespace rm_auto_aim_dart
+
+#include "rclcpp_components/register_node_macro.hpp"
+
+// Register the component with class_loader.
+// This acts as a sort of entry point, allowing the component to be discoverable when its library
+// is being loaded into a running process.
+RCLCPP_COMPONENTS_REGISTER_NODE(rm_auto_aim::ArmorDetectorNode)

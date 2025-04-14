@@ -13,6 +13,8 @@ find_package(sensor_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/light.msg"
+  "msg/DebugLight.msg"
+  "msg/DebugLights.msg"
   
 
   DEPENDENCIES
