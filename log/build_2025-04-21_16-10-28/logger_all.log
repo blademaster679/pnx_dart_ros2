@@ -1,0 +1,594 @@
+[0.112s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-up-to', 'rm_vision_bringup']
+[0.112s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['rm_vision_bringup'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2db34b4040>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2db3477a60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2db3477a60>>)
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.237s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/blade_master/pnx/pnx_dart_ros2'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim) by extension 'cmake'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/auto_aim_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/auto_aim_interfaces) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/auto_aim_interfaces) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/auto_aim_interfaces) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/auto_aim_interfaces) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/auto_aim_interfaces) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/auto_aim_interfaces) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/auto_aim_interfaces) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/auto_aim_interfaces) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auto_aim/auto_aim_interfaces' with type 'ros.ament_cmake' and name 'auto_aim_interfaces'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/light_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/light_detector) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/light_detector) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/light_detector) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/light_detector) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/light_detector) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/light_detector) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/light_detector) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/light_detector) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auto_aim/light_detector' with type 'ros.ament_cmake' and name 'light_detector'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/rm_auto_aim_dart) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/rm_auto_aim_dart) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/rm_auto_aim_dart) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/rm_auto_aim_dart) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/rm_auto_aim_dart) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/rm_auto_aim_dart) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/rm_auto_aim_dart) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/rm_auto_aim_dart) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_aim/rm_auto_aim_dart) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auto_aim/rm_auto_aim_dart' with type 'ros.ament_cmake' and name 'rm_auto_aim_dart'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik-driver) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik-driver) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik-driver) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik-driver) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik-driver) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik-driver) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik-driver) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik-driver) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/hik-driver) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hik-driver' with type 'ros.ament_cmake' and name 'hik_camera'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_gimbal_description' with type 'ros.ament_cmake' and name 'rm_gimbal_description'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_serial_driver' with type 'ros.ament_cmake' and name 'rm_serial_driver'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup/rm_vision_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup/rm_vision_bringup) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup/rm_vision_bringup) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup/rm_vision_bringup) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup/rm_vision_bringup) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup/rm_vision_bringup) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup/rm_vision_bringup) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup/rm_vision_bringup) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_bringup/rm_vision_bringup) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_bringup/rm_vision_bringup' with type 'ros.ament_cmake' and name 'rm_vision_bringup'
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.278s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 306 installed packages in /opt/ros/humble
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'auto_aim_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces', 'merge_install': False, 'path': '/home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/auto_aim_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_target' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.322s] DEBUG:colcon.colcon_core.verb:Building package 'hik_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/blade_master/pnx/pnx_dart_ros2/build/hik_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera', 'merge_install': False, 'path': '/home/blade_master/pnx/pnx_dart_ros2/src/hik-driver', 'symlink_install': True, 'test_result_base': None}
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_target' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.322s] DEBUG:colcon.colcon_core.verb:Building package 'rm_gimbal_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description', 'merge_install': False, 'path': '/home/blade_master/pnx/pnx_dart_ros2/src/rm_gimbal_description', 'symlink_install': True, 'test_result_base': None}
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'light_detector' build argument 'cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'light_detector' build argument 'cmake_target' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'light_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'light_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'light_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'light_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'light_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'light_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'light_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.322s] DEBUG:colcon.colcon_core.verb:Building package 'light_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/blade_master/pnx/pnx_dart_ros2/build/light_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector', 'merge_install': False, 'path': '/home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/light_detector', 'symlink_install': True, 'test_result_base': None}
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_target' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.323s] DEBUG:colcon.colcon_core.verb:Building package 'rm_serial_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver', 'merge_install': False, 'path': '/home/blade_master/pnx/pnx_dart_ros2/src/rm_serial_driver', 'symlink_install': True, 'test_result_base': None}
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim_dart' build argument 'cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim_dart' build argument 'cmake_target' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim_dart' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim_dart' build argument 'cmake_clean_cache' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim_dart' build argument 'cmake_clean_first' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim_dart' build argument 'cmake_force_configure' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim_dart' build argument 'ament_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim_dart' build argument 'catkin_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim_dart' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.323s] DEBUG:colcon.colcon_core.verb:Building package 'rm_auto_aim_dart' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/blade_master/pnx/pnx_dart_ros2/build/rm_auto_aim_dart', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart', 'merge_install': False, 'path': '/home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/rm_auto_aim_dart', 'symlink_install': True, 'test_result_base': None}
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_target' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.323s] DEBUG:colcon.colcon_core.verb:Building package 'rm_vision_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/blade_master/pnx/pnx_dart_ros2/build/rm_vision_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup', 'merge_install': False, 'path': '/home/blade_master/pnx/pnx_dart_ros2/src/vision_bringup/rm_vision_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.324s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.325s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.325s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/auto_aim_interfaces' with build type 'ament_cmake'
+[0.325s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/auto_aim_interfaces'
+[0.329s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.331s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/blade_master/pnx/pnx_dart_ros2/src/hik-driver' with build type 'ament_cmake'
+[0.331s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/blade_master/pnx/pnx_dart_ros2/src/hik-driver'
+[0.331s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.331s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.334s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/blade_master/pnx/pnx_dart_ros2/src/rm_gimbal_description' with build type 'ament_cmake'
+[0.334s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/blade_master/pnx/pnx_dart_ros2/src/rm_gimbal_description'
+[0.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/auto_aim_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces
+[0.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/hik-driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera
+[0.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/rm_gimbal_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description
+[1.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/rm_gimbal_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description
+[1.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description -- -j22 -l22
+[1.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description -- -j22 -l22
+[1.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description
+[1.347s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_gimbal_description)
+[1.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description' for CMake module files
+[1.351s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description' for CMake config files
+[1.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_gimbal_description', 'cmake_prefix_path')
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.ps1'
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.dsv'
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.sh'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/bin'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/lib/pkgconfig/rm_gimbal_description.pc'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/lib/python3.10/site-packages'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/bin'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/package.ps1'
+[1.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/package.dsv'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/package.sh'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/package.bash'
+[1.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/package.zsh'
+[1.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/colcon-core/packages/rm_gimbal_description)
+[1.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_gimbal_description)
+[1.359s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description' for CMake module files
+[1.359s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description' for CMake config files
+[1.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_gimbal_description', 'cmake_prefix_path')
+[1.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.ps1'
+[1.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.dsv'
+[1.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.sh'
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/bin'
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/lib/pkgconfig/rm_gimbal_description.pc'
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/lib/python3.10/site-packages'
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/bin'
+[1.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/package.ps1'
+[1.361s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/package.dsv'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/package.sh'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/package.bash'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/package.zsh'
+[1.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/colcon-core/packages/rm_gimbal_description)
+[2.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/auto_aim_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces
+[2.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces -- -j22 -l22
+[4.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces -- -j22 -l22
+[4.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces
+[5.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/hik-driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera
+[5.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/hik_camera -- -j22 -l22
+[5.342s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auto_aim_interfaces)
+[5.342s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces' for CMake module files
+[5.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces
+[5.344s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces' for CMake config files
+[5.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_aim_interfaces', 'cmake_prefix_path')
+[5.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.ps1'
+[5.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.dsv'
+[5.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.sh'
+[5.346s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib'
+[5.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_aim_interfaces', 'ld_library_path_lib')
+[5.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.ps1'
+[5.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.dsv'
+[5.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.sh'
+[5.347s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/bin'
+[5.347s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/pkgconfig/auto_aim_interfaces.pc'
+[5.348s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/python3.10/site-packages'
+[5.348s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/bin'
+[5.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/package.ps1'
+[5.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv'
+[5.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/package.sh'
+[5.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/package.bash'
+[5.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/package.zsh'
+[5.350s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/colcon-core/packages/auto_aim_interfaces)
+[5.350s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auto_aim_interfaces)
+[5.350s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces' for CMake module files
+[5.351s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces' for CMake config files
+[5.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_aim_interfaces', 'cmake_prefix_path')
+[5.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.ps1'
+[5.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.dsv'
+[5.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.sh'
+[5.352s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib'
+[5.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_aim_interfaces', 'ld_library_path_lib')
+[5.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.ps1'
+[5.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.dsv'
+[5.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.sh'
+[5.353s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/bin'
+[5.353s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/pkgconfig/auto_aim_interfaces.pc'
+[5.354s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/python3.10/site-packages'
+[5.354s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/bin'
+[5.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/package.ps1'
+[5.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv'
+[5.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/package.sh'
+[5.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/package.bash'
+[5.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/package.zsh'
+[5.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/colcon-core/packages/auto_aim_interfaces)
+[5.356s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/light_detector' with build type 'ament_cmake'
+[5.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/light_detector'
+[5.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.360s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/blade_master/pnx/pnx_dart_ros2/src/rm_serial_driver' with build type 'ament_cmake'
+[5.360s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/blade_master/pnx/pnx_dart_ros2/src/rm_serial_driver'
+[5.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/rm_serial_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver
+[5.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/light_detector': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/light_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector
+[8.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/hik_camera -- -j22 -l22
+[8.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/hik_camera
+[8.643s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hik_camera)
+[8.643s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera' for CMake module files
+[8.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/hik_camera
+[8.644s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera' for CMake config files
+[8.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('hik_camera', 'cmake_prefix_path')
+[8.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.ps1'
+[8.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.dsv'
+[8.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.sh'
+[8.647s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib'
+[8.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('hik_camera', 'ld_library_path_lib')
+[8.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.ps1'
+[8.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.dsv'
+[8.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.sh'
+[8.648s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/bin'
+[8.648s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib/pkgconfig/hik_camera.pc'
+[8.648s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib/python3.10/site-packages'
+[8.648s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/bin'
+[8.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/package.ps1'
+[8.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/package.dsv'
+[8.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/package.sh'
+[8.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/package.bash'
+[8.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/package.zsh'
+[8.650s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/colcon-core/packages/hik_camera)
+[8.651s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hik_camera)
+[8.651s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera' for CMake module files
+[8.652s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera' for CMake config files
+[8.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('hik_camera', 'cmake_prefix_path')
+[8.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.ps1'
+[8.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.dsv'
+[8.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.sh'
+[8.653s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib'
+[8.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('hik_camera', 'ld_library_path_lib')
+[8.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.ps1'
+[8.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.dsv'
+[8.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.sh'
+[8.654s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/bin'
+[8.654s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib/pkgconfig/hik_camera.pc'
+[8.654s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib/python3.10/site-packages'
+[8.655s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/bin'
+[8.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/package.ps1'
+[8.655s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/package.dsv'
+[8.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/package.sh'
+[8.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/package.bash'
+[8.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/package.zsh'
+[8.657s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/colcon-core/packages/hik_camera)
+[9.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/rm_serial_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver
+[9.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver -- -j22 -l22
+[10.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/light_detector' returned '0': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/light_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector
+[10.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/light_detector': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/light_detector -- -j22 -l22
+[20.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver -- -j22 -l22
+[20.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver
+[20.444s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_serial_driver)
+[20.444s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver' for CMake module files
+[20.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver
+[20.445s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver' for CMake config files
+[20.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_serial_driver', 'cmake_prefix_path')
+[20.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.ps1'
+[20.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.dsv'
+[20.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.sh'
+[20.447s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/lib'
+[20.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_serial_driver', 'ld_library_path_lib')
+[20.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.ps1'
+[20.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.dsv'
+[20.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.sh'
+[20.448s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/bin'
+[20.448s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/lib/pkgconfig/rm_serial_driver.pc'
+[20.448s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/lib/python3.10/site-packages'
+[20.449s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/bin'
+[20.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/package.ps1'
+[20.449s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/package.dsv'
+[20.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/package.sh'
+[20.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/package.bash'
+[20.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/package.zsh'
+[20.451s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/colcon-core/packages/rm_serial_driver)
+[20.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_serial_driver)
+[20.451s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver' for CMake module files
+[20.452s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver' for CMake config files
+[20.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_serial_driver', 'cmake_prefix_path')
+[20.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.ps1'
+[20.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.dsv'
+[20.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/hook/cmake_prefix_path.sh'
+[20.453s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/lib'
+[20.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_serial_driver', 'ld_library_path_lib')
+[20.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.ps1'
+[20.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.dsv'
+[20.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/hook/ld_library_path_lib.sh'
+[20.455s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/bin'
+[20.455s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/lib/pkgconfig/rm_serial_driver.pc'
+[20.455s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/lib/python3.10/site-packages'
+[20.455s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/bin'
+[20.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/package.ps1'
+[20.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/package.dsv'
+[20.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/package.sh'
+[20.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/package.bash'
+[20.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/package.zsh'
+[20.457s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/colcon-core/packages/rm_serial_driver)
+[28.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/light_detector' returned '0': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/light_detector -- -j22 -l22
+[28.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/light_detector': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/light_detector
+[28.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(light_detector)
+[28.321s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector' for CMake module files
+[28.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/light_detector' returned '0': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/light_detector
+[28.322s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector' for CMake config files
+[28.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('light_detector', 'cmake_prefix_path')
+[28.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/hook/cmake_prefix_path.ps1'
+[28.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/hook/cmake_prefix_path.dsv'
+[28.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/hook/cmake_prefix_path.sh'
+[28.324s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib'
+[28.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('light_detector', 'ld_library_path_lib')
+[28.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/hook/ld_library_path_lib.ps1'
+[28.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/hook/ld_library_path_lib.dsv'
+[28.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/hook/ld_library_path_lib.sh'
+[28.325s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/bin'
+[28.325s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib/pkgconfig/light_detector.pc'
+[28.325s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib/python3.10/site-packages'
+[28.325s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/bin'
+[28.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/package.ps1'
+[28.326s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/package.dsv'
+[28.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/package.sh'
+[28.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/package.bash'
+[28.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/package.zsh'
+[28.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/colcon-core/packages/light_detector)
+[28.328s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(light_detector)
+[28.328s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector' for CMake module files
+[28.328s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector' for CMake config files
+[28.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('light_detector', 'cmake_prefix_path')
+[28.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/hook/cmake_prefix_path.ps1'
+[28.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/hook/cmake_prefix_path.dsv'
+[28.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/hook/cmake_prefix_path.sh'
+[28.330s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib'
+[28.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('light_detector', 'ld_library_path_lib')
+[28.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/hook/ld_library_path_lib.ps1'
+[28.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/hook/ld_library_path_lib.dsv'
+[28.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/hook/ld_library_path_lib.sh'
+[28.331s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/bin'
+[28.331s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib/pkgconfig/light_detector.pc'
+[28.331s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib/python3.10/site-packages'
+[28.331s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/bin'
+[28.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/package.ps1'
+[28.332s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/package.dsv'
+[28.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/package.sh'
+[28.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/package.bash'
+[28.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/light_detector/package.zsh'
+[28.333s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/share/colcon-core/packages/light_detector)
+[28.334s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/rm_auto_aim_dart' with build type 'ament_cmake'
+[28.334s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/rm_auto_aim_dart'
+[28.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_auto_aim_dart': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/rm_auto_aim_dart -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart
+[36.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_auto_aim_dart' returned '0': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/rm_auto_aim_dart -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart
+[36.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_auto_aim_dart': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/rm_auto_aim_dart -- -j22 -l22
+[36.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_auto_aim_dart' returned '0': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/rm_auto_aim_dart -- -j22 -l22
+[36.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_auto_aim_dart': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/rm_auto_aim_dart
+[28.927s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_auto_aim_dart)
+[28.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_auto_aim_dart' returned '0': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/rm_auto_aim_dart
+[28.928s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart' for CMake module files
+[28.928s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart' for CMake config files
+[28.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_auto_aim_dart', 'cmake_prefix_path')
+[28.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/rm_auto_aim_dart/hook/cmake_prefix_path.ps1'
+[28.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/rm_auto_aim_dart/hook/cmake_prefix_path.dsv'
+[28.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/rm_auto_aim_dart/hook/cmake_prefix_path.sh'
+[28.932s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/bin'
+[28.932s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/lib/pkgconfig/rm_auto_aim_dart.pc'
+[28.932s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/lib/python3.10/site-packages'
+[28.933s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/bin'
+[28.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/rm_auto_aim_dart/package.ps1'
+[28.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/rm_auto_aim_dart/package.dsv'
+[28.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/rm_auto_aim_dart/package.sh'
+[28.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/rm_auto_aim_dart/package.bash'
+[28.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/rm_auto_aim_dart/package.zsh'
+[28.935s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/colcon-core/packages/rm_auto_aim_dart)
+[28.936s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_auto_aim_dart)
+[28.936s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart' for CMake module files
+[28.936s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart' for CMake config files
+[28.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_auto_aim_dart', 'cmake_prefix_path')
+[28.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/rm_auto_aim_dart/hook/cmake_prefix_path.ps1'
+[28.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/rm_auto_aim_dart/hook/cmake_prefix_path.dsv'
+[28.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/rm_auto_aim_dart/hook/cmake_prefix_path.sh'
+[28.938s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/bin'
+[28.938s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/lib/pkgconfig/rm_auto_aim_dart.pc'
+[28.938s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/lib/python3.10/site-packages'
+[28.938s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/bin'
+[28.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/rm_auto_aim_dart/package.ps1'
+[28.939s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/rm_auto_aim_dart/package.dsv'
+[28.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/rm_auto_aim_dart/package.sh'
+[28.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/rm_auto_aim_dart/package.bash'
+[28.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/rm_auto_aim_dart/package.zsh'
+[28.940s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart/share/colcon-core/packages/rm_auto_aim_dart)
+[28.941s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/blade_master/pnx/pnx_dart_ros2/src/vision_bringup/rm_vision_bringup' with build type 'ament_cmake'
+[28.941s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/blade_master/pnx/pnx_dart_ros2/src/vision_bringup/rm_vision_bringup'
+[28.941s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.941s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[29.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_vision_bringup': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart:/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart:/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/lib:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/vision_bringup/rm_vision_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup
+[30.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_vision_bringup' returned '0': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart:/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart:/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/lib:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/vision_bringup/rm_vision_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup
+[30.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_vision_bringup': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart:/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart:/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/lib:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/rm_vision_bringup -- -j22 -l22
+[30.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_vision_bringup' returned '0': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart:/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart:/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/lib:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/rm_vision_bringup -- -j22 -l22
+[30.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_vision_bringup': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart:/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart:/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/lib:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/rm_vision_bringup
+[30.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_vision_bringup)
+[30.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_vision_bringup' returned '0': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart:/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_auto_aim_dart:/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector:/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/lib:/home/blade_master/pnx/pnx_dart_ros2/install/light_detector/lib:/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib:/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/rm_vision_bringup
+[30.258s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup' for CMake module files
+[30.258s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup' for CMake config files
+[30.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_vision_bringup', 'cmake_prefix_path')
+[30.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/hook/cmake_prefix_path.ps1'
+[30.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/hook/cmake_prefix_path.dsv'
+[30.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/hook/cmake_prefix_path.sh'
+[30.260s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/bin'
+[30.260s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/lib/pkgconfig/rm_vision_bringup.pc'
+[30.260s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/lib/python3.10/site-packages'
+[30.260s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/bin'
+[30.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/package.ps1'
+[30.261s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/package.dsv'
+[30.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/package.sh'
+[30.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/package.bash'
+[30.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/package.zsh'
+[30.262s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/colcon-core/packages/rm_vision_bringup)
+[30.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_vision_bringup)
+[30.263s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup' for CMake module files
+[30.263s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup' for CMake config files
+[30.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_vision_bringup', 'cmake_prefix_path')
+[30.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/hook/cmake_prefix_path.ps1'
+[30.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/hook/cmake_prefix_path.dsv'
+[30.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/hook/cmake_prefix_path.sh'
+[30.265s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/bin'
+[30.265s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/lib/pkgconfig/rm_vision_bringup.pc'
+[30.265s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/lib/python3.10/site-packages'
+[30.265s] Level 1:colcon.colcon_core.environment:checking '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/bin'
+[30.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/package.ps1'
+[30.266s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/package.dsv'
+[30.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/package.sh'
+[30.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/package.bash'
+[30.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/package.zsh'
+[30.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/colcon-core/packages/rm_vision_bringup)
+[30.267s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[30.268s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[30.268s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[30.268s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[30.294s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[30.294s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[30.294s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[30.294s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[30.295s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[30.295s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[30.296s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/blade_master/pnx/pnx_dart_ros2/install/local_setup.ps1'
+[30.297s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/blade_master/pnx/pnx_dart_ros2/install/_local_setup_util_ps1.py'
+[30.298s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/blade_master/pnx/pnx_dart_ros2/install/setup.ps1'
+[30.299s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/blade_master/pnx/pnx_dart_ros2/install/local_setup.sh'
+[30.299s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/blade_master/pnx/pnx_dart_ros2/install/_local_setup_util_sh.py'
+[30.299s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/blade_master/pnx/pnx_dart_ros2/install/setup.sh'
+[30.300s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/blade_master/pnx/pnx_dart_ros2/install/local_setup.bash'
+[30.301s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/blade_master/pnx/pnx_dart_ros2/install/setup.bash'
+[30.302s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/blade_master/pnx/pnx_dart_ros2/install/local_setup.zsh'
+[30.302s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/blade_master/pnx/pnx_dart_ros2/install/setup.zsh'

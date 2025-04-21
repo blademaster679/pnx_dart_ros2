@@ -1,2 +1,0 @@
-double distance;
-double angle;

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-357f7a904b688944b69f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "auto_aim_interfaces__py",
+					"jsonFile" : "directory-auto_aim_interfaces__py-9653791666f91c1828d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces/auto_aim_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "auto_aim_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_auto_aim_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_auto_aim_interfaces_egg-799906ad74337aa8cf50.json",
+					"name" : "ament_cmake_python_build_auto_aim_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_auto_aim_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_auto_aim_interfaces-f407535c56bf111d48a2.json",
+					"name" : "ament_cmake_python_symlink_auto_aim_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces-39a7779cc8ea7b818542.json",
+					"name" : "auto_aim_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__cpp-4d0ec745e3df6b24f381.json",
+					"name" : "auto_aim_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "auto_aim_interfaces__py::@7d42394fc9c2e1d152d7",
+					"jsonFile" : "target-auto_aim_interfaces__py-a0a507d1f773e3307a03.json",
+					"name" : "auto_aim_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_generator_c-37e8e7bad99daf067069.json",
+					"name" : "auto_aim_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_generator_py-8e181d0da673f8c6da1b.json",
+					"name" : "auto_aim_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_c-2c568df5cd7a704a73f3.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_c__pyext-d1a1c43fe330c0e72c5e.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_cpp-a652b8fbfe80695daf40.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_fastrtps_c-742713a264133b69663a.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext-d8c0ac3cf18390aa56e2.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp-f656ee53ee17c7968d7f.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_introspection_c-376f8aaab5032c40a29a.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext-88a2ace32b76c24ceab5.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces__rosidl_typesupport_introspection_cpp-872e56575f954a25fa91.json",
+					"name" : "auto_aim_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auto_aim_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auto_aim_interfaces_uninstall-73efeccdecd57cb6cf72.json",
+					"name" : "auto_aim_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4e72a16aed5b12aeacc1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces",
+		"source" : "/home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/auto_aim_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

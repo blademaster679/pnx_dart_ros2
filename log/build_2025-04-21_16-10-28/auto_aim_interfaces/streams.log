@@ -1,0 +1,305 @@
+[0.013s] Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/auto_aim_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.280s] -- The CXX compiler identification is GNU 11.4.0
+[0.417s] -- Detecting C compiler ABI info
+[0.489s] -- Detecting C compiler ABI info - done
+[0.494s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.494s] -- Detecting C compile features
+[0.494s] -- Detecting C compile features - done
+[0.496s] -- Detecting CXX compiler ABI info
+[0.582s] -- Detecting CXX compiler ABI info - done
+[0.588s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.588s] -- Detecting CXX compile features
+[0.588s] -- Detecting CXX compile features - done
+[0.590s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.701s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.753s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.768s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.769s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.773s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.891s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.914s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.941s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.953s] -- Found asio_cmake_module: 1.2.0 (/opt/ros/humble/share/asio_cmake_module/cmake)
+[1.205s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.413s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.679s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.743s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.744s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.898s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.898s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.898s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.898s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.916s] -- Found PythonExtra: .so  
+[1.993s] -- Configuring done
+[2.028s] -- Generating done
+[2.039s] -- Build files have been written to: /home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces
+[2.050s] Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/auto_aim_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces
+[2.051s] Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces -- -j22 -l22
+[2.077s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.084s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.090s] [  3%] Built target ament_cmake_python_symlink_auto_aim_interfaces
+[2.297s] running egg_info
+[2.298s] creating auto_aim_interfaces.egg-info
+[2.298s] writing auto_aim_interfaces.egg-info/PKG-INFO
+[2.298s] writing dependency_links to auto_aim_interfaces.egg-info/dependency_links.txt
+[2.298s] writing top-level names to auto_aim_interfaces.egg-info/top_level.txt
+[2.299s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[2.300s] reading manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[2.300s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[2.327s] [  3%] Built target ament_cmake_python_build_auto_aim_interfaces_egg
+[2.488s] [  3%] Built target auto_aim_interfaces__cpp
+[2.496s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.496s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.496s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.561s] [ 11%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_lights__functions.c.o[0m
+[2.561s] [ 11%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/light__functions.c.o[0m
+[2.561s] [ 12%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/lights__functions.c.o[0m
+[2.562s] [ 15%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_light__functions.c.o[0m
+[2.563s] [ 15%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/send__functions.c.o[0m
+[2.601s] [ 17%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_generator_c.so[0m
+[2.670s] [ 17%] Built target auto_aim_interfaces__rosidl_generator_c
+[2.678s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.678s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.678s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.794s] [ 25%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/send__type_support.cpp.o[0m
+[2.794s] [ 25%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_light__type_support.cpp.o[0m
+[2.794s] [ 26%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/lights__type_support.cpp.o[0m
+[2.795s] [ 30%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/light__type_support.cpp.o[0m
+[2.796s] [ 30%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[2.857s] [ 33%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/lights__type_support.cpp.o[0m
+[2.857s] [ 33%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/light__type_support.cpp.o[0m
+[2.858s] [ 34%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_light__type_support.cpp.o[0m
+[2.859s] [ 36%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_lights__type_support.cpp.o[0m
+[2.860s] [ 38%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/send__type_support.cpp.o[0m
+[2.945s] [ 39%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/lights__type_support.cpp.o[0m
+[2.946s] [ 42%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_light__type_support.cpp.o[0m
+[2.946s] [ 42%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/light__type_support.cpp.o[0m
+[2.947s] [ 44%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/send__type_support.cpp.o[0m
+[2.948s] [ 46%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_lights__type_support.cpp.o[0m
+[3.094s] [ 47%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/lights__type_support.cpp.o[0m
+[3.095s] [ 49%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/light__type_support.cpp.o[0m
+[3.100s] [ 50%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_light__type_support.cpp.o[0m
+[3.100s] [ 52%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[3.104s] [ 53%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/send__type_support.cpp.o[0m
+[3.157s] [ 55%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_c.so[0m
+[3.173s] [ 57%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_cpp.so[0m
+[3.192s] [ 61%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/light__type_support.c.o[0m
+[3.192s] [ 61%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/lights__type_support.c.o[0m
+[3.192s] [ 63%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/send__type_support.c.o[0m
+[3.192s] [ 63%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_lights__type_support.c.o[0m
+[3.195s] [ 65%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_light__type_support.c.o[0m
+[3.237s] [ 68%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_lights__type_support_c.cpp.o[0m
+[3.237s] [ 68%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_light__type_support_c.cpp.o[0m
+[3.238s] [ 71%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/light__type_support_c.cpp.o[0m
+[3.238s] [ 71%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/lights__type_support_c.cpp.o[0m
+[3.242s] [ 73%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/send__type_support_c.cpp.o[0m
+[3.247s] [ 74%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.265s] [ 74%] Built target auto_aim_interfaces__rosidl_typesupport_c
+[3.304s] [ 74%] Built target auto_aim_interfaces__rosidl_typesupport_cpp
+[3.358s] [ 74%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c
+[3.515s] [ 76%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.580s] [ 77%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.640s] [ 79%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.693s] [ 79%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_cpp
+[3.706s] [ 79%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.732s] [ 79%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c
+[3.745s] [ 79%] Built target auto_aim_interfaces
+[3.760s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.328s] [ 80%] Built target auto_aim_interfaces__py
+[4.342s] [ 84%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_light_s.c.o[0m
+[4.342s] [ 84%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_lights_s.c.o[0m
+[4.343s] [ 85%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_light_s.c.o[0m
+[4.343s] [ 87%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_send_s.c.o[0m
+[4.345s] [ 88%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_lights_s.c.o[0m
+[4.433s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so[0m
+[4.504s] [ 90%] Built target auto_aim_interfaces__rosidl_generator_py
+[4.518s] [ 95%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.518s] [ 95%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.518s] [ 95%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.597s] [100%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.597s] [100%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.597s] [100%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.655s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.655s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.665s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_c__pyext
+[4.674s] Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces -- -j22 -l22
+[4.676s] Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces
+[4.681s] -- Install configuration: ""
+[4.682s] -- Execute custom install script
+[4.682s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/ament_index/resource_index/rosidl_interfaces/auto_aim_interfaces
+[4.689s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.h
+[4.696s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.h
+[4.702s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.h
+[4.708s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.h
+[4.713s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.h
+[4.719s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.h
+[4.724s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.h
+[4.730s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.h
+[4.736s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/light__functions.h
+[4.743s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/light__struct.h
+[4.750s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/light__type_support.h
+[4.756s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/lights__functions.h
+[4.762s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/lights__struct.h
+[4.768s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/lights__type_support.h
+[4.774s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__functions.h
+[4.780s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__struct.h
+[4.787s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__type_support.h
+[4.793s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/light.h
+[4.798s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/lights.h
+[4.804s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.810s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/send.h
+[4.817s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.sh
+[4.823s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.dsv
+[4.830s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_c.h
+[4.837s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_c.h
+[4.844s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_c.h
+[4.851s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/lights__rosidl_typesupport_fastrtps_c.h
+[4.858s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__rosidl_typesupport_fastrtps_c.h
+[4.864s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.871s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_c.h
+[4.878s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_c.h
+[4.885s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/light__rosidl_typesupport_introspection_c.h
+[4.891s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/lights__rosidl_typesupport_introspection_c.h
+[4.897s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__rosidl_typesupport_introspection_c.h
+[4.903s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.911s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.hpp
+[4.918s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.hpp
+[4.924s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__builder.hpp
+[4.930s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.hpp
+[4.936s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__traits.hpp
+[4.943s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.hpp
+[4.950s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__builder.hpp
+[4.956s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.hpp
+[4.964s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__traits.hpp
+[4.970s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.hpp
+[4.977s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/light__builder.hpp
+[4.982s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/light__struct.hpp
+[4.988s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/light__traits.hpp
+[4.994s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/light__type_support.hpp
+[4.999s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/lights__builder.hpp
+[5.005s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/lights__struct.hpp
+[5.011s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/lights__traits.hpp
+[5.016s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/lights__type_support.hpp
+[5.022s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__builder.hpp
+[5.027s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__struct.hpp
+[5.032s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__traits.hpp
+[5.038s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__type_support.hpp
+[5.045s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/light.hpp
+[5.051s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/lights.hpp
+[5.057s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.064s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/send.hpp
+[5.070s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_cpp.hpp
+[5.075s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_cpp.hpp
+[5.080s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_cpp.hpp
+[5.085s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/lights__rosidl_typesupport_fastrtps_cpp.hpp
+[5.091s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__rosidl_typesupport_fastrtps_cpp.hpp
+[5.096s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.103s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp
+[5.108s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_cpp.hpp
+[5.114s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/light__rosidl_typesupport_introspection_cpp.hpp
+[5.119s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/lights__rosidl_typesupport_introspection_cpp.hpp
+[5.125s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/send__rosidl_typesupport_introspection_cpp.hpp
+[5.130s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.sh
+[5.135s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.dsv
+[5.144s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.150s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.158s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.164s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.170s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py
+[5.175s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c
+[5.181s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.186s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.191s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.197s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.203s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.209s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so
+[5.214s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py
+[5.219s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py
+[5.224s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light_s.c
+[5.231s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py
+[5.237s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights_s.c
+[5.244s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_light.py
+[5.250s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_light_s.c
+[5.257s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_lights.py
+[5.263s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_lights_s.c
+[5.268s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_send.py
+[5.274s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_send_s.c
+[5.280s] -- Up-to-date symlink: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.280s] -- Up-to-date symlink: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.280s] -- Up-to-date symlink: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.280s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Light.idl
+[5.286s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Lights.idl
+[5.292s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.idl
+[5.298s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.idl
+[5.304s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Send.idl
+[5.309s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Light.msg
+[5.314s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Lights.msg
+[5.319s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.msg
+[5.324s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.msg
+[5.330s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Send.msg
+[5.336s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/ament_index/resource_index/package_run_dependencies/auto_aim_interfaces
+[5.344s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/ament_index/resource_index/parent_prefix_path/auto_aim_interfaces
+[5.350s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.sh
+[5.357s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.dsv
+[5.363s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.sh
+[5.369s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.dsv
+[5.375s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.bash
+[5.382s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.sh
+[5.387s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.zsh
+[5.394s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.dsv
+[5.400s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv
+[5.407s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/ament_index/resource_index/packages/auto_aim_interfaces
+[5.412s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.418s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.425s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.432s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.438s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.444s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.450s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.457s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig.cmake
+[5.464s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig-version.cmake
+[5.469s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/package.xml
+[5.476s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so
+[5.476s] -- Set runtime path of "/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so" to ""
+[5.476s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.476s] -- Set runtime path of "/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.477s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so
+[5.477s] -- Set runtime path of "/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.477s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so
+[5.477s] -- Set runtime path of "/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so" to ""
+[5.477s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.477s] -- Set runtime path of "/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.477s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.477s] -- Set runtime path of "/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.477s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so
+[5.478s] -- Set runtime path of "/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.507s] Listing '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces'...
+[5.507s] Compiling '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py'...
+[5.507s] Listing '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg'...
+[5.507s] Compiling '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py'...
+[5.507s] Compiling '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py'...
+[5.507s] Compiling '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py'...
+[5.507s] Compiling '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_light.py'...
+[5.507s] Compiling '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_lights.py'...
+[5.507s] Compiling '/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_send.py'...
+[5.511s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so
+[5.511s] -- Set runtime path of "/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so" to ""
+[5.512s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport.cmake
+[5.512s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.512s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.512s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.512s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.513s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.513s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport.cmake
+[5.513s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.513s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cppExport.cmake
+[5.513s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.513s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.513s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.514s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.514s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport.cmake
+[5.514s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.514s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport.cmake
+[5.514s] -- Installing: /home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.516s] Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces

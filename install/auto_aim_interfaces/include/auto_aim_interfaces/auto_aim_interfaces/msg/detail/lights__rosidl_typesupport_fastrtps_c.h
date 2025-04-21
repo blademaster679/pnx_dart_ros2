@@ -1,0 +1,1 @@
+/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/lights__rosidl_typesupport_fastrtps_c.h

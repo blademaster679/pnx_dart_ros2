@@ -1,0 +1,98 @@
+[0.038s] Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/rm_serial_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.328s] -- The CXX compiler identification is GNU 11.4.0
+[0.487s] -- Detecting C compiler ABI info
+[0.590s] -- Detecting C compiler ABI info - done
+[0.596s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.596s] -- Detecting C compile features
+[0.596s] -- Detecting C compile features - done
+[0.598s] -- Detecting CXX compiler ABI info
+[0.699s] -- Detecting CXX compiler ABI info - done
+[0.704s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.705s] -- Detecting CXX compile features
+[0.705s] -- Detecting CXX compile features - done
+[0.706s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.840s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.902s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.919s] -- Found auto_aim_interfaces: 0.0.0 (/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake)
+[1.014s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.019s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.028s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.042s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.058s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.192s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.193s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.993s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.961s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.509s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.514s] -- Looking for pthread.h
+[4.590s] -- Looking for pthread.h - found
+[4.590s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.669s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.671s] -- Found Threads: TRUE  
+[4.733s] -- Found asio_cmake_module: 1.2.0 (/opt/ros/humble/share/asio_cmake_module/cmake)
+[4.751s] -- Found ASIO: /usr/include  
+[4.849s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.850s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.850s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.888s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.904s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.904s] -- Configured cppcheck include dirs: /home/blade_master/pnx/pnx_dart_ros2/src/rm_serial_driver/include
+[4.904s] -- Configured cppcheck exclude dirs and/or files: 
+[4.905s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.905s] -- Configured cpplint exclude dirs and/or files: 
+[4.905s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.906s] -- Added test 'lint_cmake' to check CMake code style
+[4.906s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.906s] -- Added test 'xmllint' to check XML markup files
+[4.907s] -- Added test 'clang_format' to check C / C++ code style
+[4.910s] -- Configuring done
+[4.927s] -- Generating done
+[4.931s] -- Build files have been written to: /home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver
+[4.944s] Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/rm_serial_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver
+[4.946s] Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver -- -j22 -l22
+[4.987s] [ 20%] [32mBuilding CXX object CMakeFiles/rm_serial_driver.dir/src/crc.cpp.o[0m
+[4.987s] [ 40%] [32mBuilding CXX object CMakeFiles/rm_serial_driver_node.dir/rclcpp_components/node_main_rm_serial_driver_node.cpp.o[0m
+[4.989s] [ 60%] [32mBuilding CXX object CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o[0m
+[8.070s] [ 80%] [32m[1mLinking CXX executable rm_serial_driver_node[0m
+[8.236s] [ 80%] Built target rm_serial_driver_node
+[15.823s] [100%] [32m[1mLinking CXX shared library librm_serial_driver.so[0m
+[16.364s] [100%] Built target rm_serial_driver
+[16.373s] Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver -- -j22 -l22
+[16.375s] Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver
+[16.380s] -- Install configuration: ""
+[16.380s] -- Execute custom install script
+[16.381s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/lib/rm_serial_driver/rm_serial_driver_node
+[16.388s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/include/crc.hpp
+[16.395s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/include/crc.hpp:Zone.Identifier
+[16.401s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/include/packet.hpp
+[16.407s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/include/packet.hpp:Zone.Identifier
+[16.412s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/include/rm_serial_driver.hpp
+[16.418s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/include/rm_serial_driver.hpp:Zone.Identifier
+[16.423s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/environment/library_path.sh
+[16.429s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/environment/library_path.dsv
+[16.433s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/lib/librm_serial_driver.so
+[16.439s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/config/serial_driver.yaml
+[16.444s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/config/serial_driver.yaml:Zone.Identifier
+[16.449s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/launch/serial_driver.launch.py
+[16.456s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/launch/serial_driver.launch.py:Zone.Identifier
+[16.462s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/ament_index/resource_index/package_run_dependencies/rm_serial_driver
+[16.468s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/ament_index/resource_index/parent_prefix_path/rm_serial_driver
+[16.473s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/environment/ament_prefix_path.sh
+[16.479s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/environment/ament_prefix_path.dsv
+[16.485s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/environment/path.sh
+[16.492s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/environment/path.dsv
+[16.500s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/local_setup.bash
+[16.507s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/local_setup.sh
+[16.513s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/local_setup.zsh
+[16.518s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/local_setup.dsv
+[16.528s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/package.dsv
+[16.533s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/ament_index/resource_index/packages/rm_serial_driver
+[16.539s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/ament_index/resource_index/rclcpp_components/rm_serial_driver
+[16.544s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.550s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.556s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[16.561s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driverConfig.cmake
+[16.567s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driverConfig-version.cmake
+[16.573s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_serial_driver/share/rm_serial_driver/package.xml
+[16.585s] Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/blade_master/pnx/pnx_dart_ros2/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver
