@@ -1,0 +1,4 @@
+float64 distance
+float64 angle
+float64 distance_to_image_center
+geometry_msgs/Pose pose
