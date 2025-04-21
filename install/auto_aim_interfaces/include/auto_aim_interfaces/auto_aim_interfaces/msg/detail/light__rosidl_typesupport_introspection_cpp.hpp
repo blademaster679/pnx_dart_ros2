@@ -1,1 +1,0 @@
-/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/light__rosidl_typesupport_introspection_cpp.hpp

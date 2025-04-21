@@ -1,1 +1,0 @@
-/home/blade_master/pnx/pnx_dart_ros2/build/auto_aim_interfaces/rosidl_generator_py/auto_aim_interfaces/msg/__init__.py

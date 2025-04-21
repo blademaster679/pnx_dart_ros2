@@ -1,1 +1,0 @@
-/home/blade_master/pnx/pnx_dart_ros2/build/hik_camera/ament_cmake_environment_hooks/local_setup.zsh

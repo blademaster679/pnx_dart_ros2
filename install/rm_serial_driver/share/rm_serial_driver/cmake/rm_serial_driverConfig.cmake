@@ -1,1 +1,0 @@
-/home/blade_master/pnx/pnx_dart_ros2/build/rm_serial_driver/ament_cmake_core/rm_serial_driverConfig.cmake

@@ -1,1 +1,0 @@
-/home/blade_master/pnx/pnx_dart_ros2/src/auto_aim/auto_aim_interfaces/msg/Light.msg

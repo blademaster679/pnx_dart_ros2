@@ -1,1 +1,0 @@
-/home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description/ament_cmake_core/rm_gimbal_descriptionConfig-version.cmake
