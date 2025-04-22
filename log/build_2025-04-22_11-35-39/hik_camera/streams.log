@@ -1,0 +1,85 @@
+[0.018s] Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/hik-driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera
+[0.258s] -- The C compiler identification is GNU 11.4.0
+[0.672s] -- The CXX compiler identification is GNU 11.4.0
+[0.932s] -- Detecting C compiler ABI info
+[1.086s] -- Detecting C compiler ABI info - done
+[1.090s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.093s] -- Detecting C compile features
+[1.094s] -- Detecting C compile features - done
+[1.098s] -- Detecting CXX compiler ABI info
+[1.261s] -- Detecting CXX compiler ABI info - done
+[1.266s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.267s] -- Detecting CXX compile features
+[1.267s] -- Detecting CXX compile features - done
+[1.271s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.392s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.459s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.736s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.738s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.745s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.765s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.778s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.831s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.835s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.940s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.829s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.107s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.119s] -- Looking for pthread.h
+[9.248s] -- Looking for pthread.h - found
+[9.249s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.375s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.376s] -- Found Threads: TRUE  
+[10.932s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.948s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.948s] -- Configured cppcheck include dirs: /home/blade_master/pnx/pnx_dart_ros2/src/hik-driver/hikSDK/include
+[10.949s] -- Configured cppcheck exclude dirs and/or files: 
+[10.949s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.950s] -- Added test 'lint_cmake' to check CMake code style
+[10.950s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.951s] -- Added test 'xmllint' to check XML markup files
+[10.953s] -- Configuring done
+[10.965s] -- Generating done
+[10.969s] -- Build files have been written to: /home/blade_master/pnx/pnx_dart_ros2/build/hik_camera
+[10.980s] Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/hik-driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/hik_camera
+[10.982s] Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/hik_camera -- -j22 -l22
+[11.014s] [ 25%] [32mBuilding CXX object CMakeFiles/hik_camera_node.dir/rclcpp_components/node_main_hik_camera_node.cpp.o[0m
+[11.017s] [ 50%] [32mBuilding CXX object CMakeFiles/hik_camera.dir/src/hik_camera_node.cpp.o[0m
+[13.996s] [ 75%] [32m[1mLinking CXX executable hik_camera_node[0m
+[14.205s] [ 75%] Built target hik_camera_node
+[14.263s] [100%] [32m[1mLinking CXX shared library libhik_camera.so[0m
+[14.477s] [100%] Built target hik_camera
+[14.485s] Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/hik_camera -- -j22 -l22
+[14.486s] Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/hik_camera
+[14.490s] -- Install configuration: ""
+[14.490s] -- Execute custom install script
+[14.492s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib/libFormatConversion.so
+[14.498s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib/libMVRender.so
+[14.502s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib/libMediaProcess.so
+[14.507s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib/libMvCameraControl.so
+[14.513s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib/libMvUsb3vTL.so
+[14.518s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib/hik_camera/hik_camera_node
+[14.524s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/environment/library_path.sh
+[14.530s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/environment/library_path.dsv
+[14.535s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/lib/libhik_camera.so
+[14.541s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/config/camera_info.yaml
+[14.546s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/config/camera_params.yaml
+[14.553s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/launch/hik_camera.launch.py
+[14.559s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/ament_index/resource_index/package_run_dependencies/hik_camera
+[14.565s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/ament_index/resource_index/parent_prefix_path/hik_camera
+[14.574s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/environment/ament_prefix_path.sh
+[14.581s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/environment/ament_prefix_path.dsv
+[14.587s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/environment/path.sh
+[14.593s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/environment/path.dsv
+[14.600s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/local_setup.bash
+[14.606s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/local_setup.sh
+[14.612s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/local_setup.zsh
+[14.618s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/local_setup.dsv
+[14.624s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/package.dsv
+[14.632s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/ament_index/resource_index/packages/hik_camera
+[14.637s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/ament_index/resource_index/rclcpp_components/hik_camera
+[14.642s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.648s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[14.654s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/cmake/hik_cameraConfig.cmake
+[14.665s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/cmake/hik_cameraConfig-version.cmake
+[14.671s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/hik_camera/share/hik_camera/package.xml
+[14.679s] Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/hik_camera

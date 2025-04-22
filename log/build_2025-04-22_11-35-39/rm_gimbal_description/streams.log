@@ -1,0 +1,45 @@
+[0.022s] Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/rm_gimbal_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description
+[0.227s] -- The C compiler identification is GNU 11.4.0
+[0.669s] -- The CXX compiler identification is GNU 11.4.0
+[0.977s] -- Detecting C compiler ABI info
+[1.137s] -- Detecting C compiler ABI info - done
+[1.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.142s] -- Detecting C compile features
+[1.143s] -- Detecting C compile features - done
+[1.145s] -- Detecting CXX compiler ABI info
+[1.289s] -- Detecting CXX compiler ABI info - done
+[1.297s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.297s] -- Detecting CXX compile features
+[1.298s] -- Detecting CXX compile features - done
+[1.299s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.414s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.491s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.513s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.605s] -- Added test 'lint_cmake' to check CMake code style
+[1.608s] -- Added test 'xmllint' to check XML markup files
+[1.611s] -- Configuring done
+[1.613s] -- Generating done
+[1.614s] -- Build files have been written to: /home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description
+[1.619s] Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/blade_master/pnx/pnx_dart_ros2/src/rm_gimbal_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description
+[1.621s] Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description -- -j22 -l22
+[1.649s] Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description -- -j22 -l22
+[1.657s] Invoking command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description
+[1.662s] -- Install configuration: ""
+[1.662s] -- Execute custom install script
+[1.663s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/urdf/rm_gimbal.urdf.xacro
+[1.670s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/ament_index/resource_index/package_run_dependencies/rm_gimbal_description
+[1.677s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/ament_index/resource_index/parent_prefix_path/rm_gimbal_description
+[1.684s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/environment/ament_prefix_path.sh
+[1.694s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/environment/ament_prefix_path.dsv
+[1.703s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/environment/path.sh
+[1.710s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/environment/path.dsv
+[1.717s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.bash
+[1.724s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.sh
+[1.734s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.zsh
+[1.739s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.dsv
+[1.748s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/package.dsv
+[1.753s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/ament_index/resource_index/packages/rm_gimbal_description
+[1.760s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/cmake/rm_gimbal_descriptionConfig.cmake
+[1.765s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/cmake/rm_gimbal_descriptionConfig-version.cmake
+[1.771s] -- Symlinking: /home/blade_master/pnx/pnx_dart_ros2/install/rm_gimbal_description/share/rm_gimbal_description/package.xml
+[1.778s] Invoked command in '/home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/blade_master/pnx/pnx_dart_ros2/build/rm_gimbal_description

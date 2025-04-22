@@ -4,7 +4,6 @@
 /home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/config/camera_info.yaml
 /home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/config/launch_params.yaml
 /home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/config/node_params.yaml
-/home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/config/topic_record_params.yaml
 /home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/ament_index/resource_index/package_run_dependencies/rm_vision_bringup
 /home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/ament_index/resource_index/parent_prefix_path/rm_vision_bringup
 /home/blade_master/pnx/pnx_dart_ros2/install/rm_vision_bringup/share/rm_vision_bringup/environment/ament_prefix_path.sh

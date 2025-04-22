@@ -6,7 +6,7 @@ sys.path.append(os.path.join(get_package_share_directory('rm_vision_bringup'), '
 
 def generate_launch_description():
 
-    from common import node_params, launch_params, robot_state_publisher, recorder_node
+    from common import node_params, launch_params, robot_state_publisher
     from launch_ros.descriptions import ComposableNode
     from launch_ros.actions import ComposableNodeContainer, Node
     from launch.actions import TimerAction, Shutdown
@@ -31,7 +31,7 @@ def generate_launch_description():
                 camera_node,
                 ComposableNode(
                     package='light_detector',
-                    plugin='rm_auto_aim::LightDetectorNode',
+                    plugin='rm_auto_aim_dart::LightDetectorNode',
                     name='light_detector',
                     parameters=[node_params],
                     extra_arguments=[{'use_intra_process_comms': True}]
@@ -67,14 +67,9 @@ def generate_launch_description():
         actions=[serial_driver_node],
     )
 
-    delay_recorder_node = TimerAction(
-        period=2.4,
-        actions=[recorder_node],
-    )
 
     return LaunchDescription([
         robot_state_publisher,
         cam_detector,
         delay_serial_node,
-        delay_recorder_node,
     ])
